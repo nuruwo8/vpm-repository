@@ -5,7 +5,7 @@
         "name": "nuruwo"
     },
     "description": "nuruwo's vpm repository",
-    "url": "nuruwo",
+    "url": "https://nuruwo8.github.io/nuruwo8-listing/index.json",
     "packages": {
         "com.nuruwo.dark-class-generator": {
             "versions": {
