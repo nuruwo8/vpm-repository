@@ -1,31 +1,21 @@
 {
     "name": "nuruwo",
     "id": "com.nuruwo.vpm",
+    "url": "https://nuruwo8.github.io/nuruwo8-listing/index.json",
     "author": {
         "name": "nuruwo"
     },
     "description": "nuruwo's vpm repository",
-    "url": "https://nuruwo8.github.io/nuruwo8-listing/index.json",
-    "packages": {
-        "com.nuruwo.dark-class-generator": {
-            "versions": {
-                "2.6.2": {
-                    "name": "com.nuruwo.dark-class-generator",
-                    "displayName": "DarkClassGenerator",
-                    "version": "2.6.2",
-                    "description": "Custom class generator for UdonSharp.",
-                    "license": "CC0-1.0",
-                    "author": {
-                        "name": "nuruwo",
-                        "email": "nuruwo999@gmail.com",
-                        "url": "https://github.com/nuruwo8"
-                    },
-                    "url": "https://github.com/nuruwo8/vrchat-dark-class-generator/releases/download/V2.6.2/DarkClassGenerator.zip",
-                    "vpmDependencies": {
-                        "com.vrchat.worlds": "^3.x.x"
-                    }
-                }
-            }
+    "infoLink": {
+        "url": "https://github.com/nuruwo8/vpm-repository",
+        "text": "View on GitHub"
+    },
+    "packages": [
+        {
+            "name": "com.nuruwo.dark-class-generator",
+            "releases": [
+                "https://github.com/nuruwo8/vrchat-dark-class-generator/releases/download/V2.6.2/DarkClassGenerator.zip"
+            ]
         }
-    }
+    ]
 }
